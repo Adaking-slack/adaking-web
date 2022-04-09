@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background: url(images/fog.jpg) no-repeat center;;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main{
+    width: 350px;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+.card{
+    background: #333;
+    padding: 30px 50px;
+}
+
+.pic{
+    display: inline-block;
+    margin: auto;
+    width: 130px;
+    height: 130px;
+    padding: 6px;
+    border-radius: 41% 59% 27% 73% / 46% 37% 63% 54%;
+    background: linear-gradient(160deg, pink, #04aacd, orangeRed);
+    display: block;
+    background-position:left  ;
+
+}
+
+
+
+
+
+ #text {
+    font-weight: 300px;
+    color:rgb(255, 1, 86);
+    margin-top: 8px;
+    font-size: 18px;
+
+
+}
+  button{
+    height: 34px;
+    width: 130px;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid orangered;
+    color: #111;
+    cursor: pointer;
+    font-weight: 500;
+    margin-top: 10px;
+     background-color: orangered;
+
+
+}
+
+#txt, #btn a{
+    color: #fff;
+    text-decoration: none;
+}
+
+button:hover{
+    background: #d9c6d3;
+    transition: 0.3s;
+}
+
+ #social-icons{
+    margin-bottom: 9px;
+}
+
+#social-icons, a{
+    color: #f1f1f1;
+    text-decoration: none;
+    padding: 7px;
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.footer{
+    display: flex;
+    height: 120px;
+    align-items: center;
+    padding: auto;
+    background-color: orangered;
+
+}
+ .footer, .numbers{
+    flex: 1;
+    color: #ddd;
+
+}
